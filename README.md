@@ -1,5 +1,6 @@
 # Embedded-System-Design
-TCES 460
+TCES 460.
+
 This is an extension of Project_2b. The objective of this project is to read the measured temperature on a laptop/cell phone. We used UART5 to connect the Bluetooth module (ZS-040) with the TM4C123 microcontroller and the software 'Bluetooth Serial Terminal' to read the temperature on the laptop. ZS-040 is from the same family as HC-05. Therefore, the PIN orientation, initialization, and connection of ZS-040 are very similar to HC-05.
 
 Using the UART communication protocol to connect with TM4C123, we first selected the UART module (Tx and RX pins) and connected 3.3 V and GND. The program satisfies the following conditions:
